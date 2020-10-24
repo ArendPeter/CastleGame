@@ -8,6 +8,7 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":8,},
+    {"id":{"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},"order":4,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":9,},
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
@@ -44,6 +45,7 @@
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},
     {"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},
+    {"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
