@@ -14,6 +14,7 @@
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":9,},
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
+    {"id":{"name":"rmCoinExplosion","path":"rooms/rmCoinExplosion/rmCoinExplosion.yy",},"order":5,},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},"order":11,},
     {"id":{"name":"sInside2","path":"sprites/sInside2/sInside2.yy",},"order":6,},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},"order":1,},
@@ -43,6 +44,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rmCoinExplosion","path":"rooms/rmCoinExplosion/rmCoinExplosion.yy",},
     {"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},
     {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
