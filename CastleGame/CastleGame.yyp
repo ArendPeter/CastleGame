@@ -3,7 +3,9 @@
     {"id":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},"order":1,},
     {"id":{"name":"tileOutside","path":"tilesets/tileOutside/tileOutside.yy",},"order":0,},
     {"id":{"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},"order":3,},
+    {"id":{"name":"oCoin","path":"objects/oCoin/oCoin.yy",},"order":3,},
     {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},"order":2,},
+    {"id":{"name":"oGoomba","path":"objects/oGoomba/oGoomba.yy",},"order":2,},
     {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
@@ -41,11 +43,11 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},
     {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},
     {"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},
-    {"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
