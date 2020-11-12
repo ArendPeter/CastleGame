@@ -42,9 +42,9 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},
+    {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},
   ],
   "Folders": [
