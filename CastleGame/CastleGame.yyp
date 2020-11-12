@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},"order":1,},
+    {"id":{"name":"rmLong","path":"rooms/rmLong/rmLong.yy",},"order":1,},
     {"id":{"name":"tileOutside","path":"tilesets/tileOutside/tileOutside.yy",},"order":0,},
     {"id":{"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},"order":3,},
     {"id":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},"order":2,},
@@ -9,6 +9,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":8,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":9,},
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},"order":11,},
     {"id":{"name":"sInside2","path":"sprites/sInside2/sInside2.yy",},"order":6,},
@@ -38,9 +39,9 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rmLong","path":"rooms/rmLong/rmLong.yy",},
     {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
-    {"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},
     {"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},
   ],
   "Folders": [
