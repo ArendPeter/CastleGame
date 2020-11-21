@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"rmLong","path":"rooms/rmLong/rmLong.yy",},"order":1,},
     {"id":{"name":"tileOutside","path":"tilesets/tileOutside/tileOutside.yy",},"order":0,},
+    {"id":{"name":"ShorterCamera","path":"scripts/ShorterCamera/ShorterCamera.yy",},"order":0,},
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},

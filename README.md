@@ -4,24 +4,16 @@ Hi, this repo is used for my castle game beginners series on the ArendPeterTeach
 
 ## ART CREDIT
 
-https://opengameart.org/content/spooky-castle-tileset
-    outdoor castle tiles
-    metal gate
+* ["Pixel Knight 32x32" by PolygonDan](https://opengameart.org/content/pixel-knight-32x32): Used for main knight character
 
-https://opengameart.org/content/rpg-indoor-tileset-expansion-1
-https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline
-    indoor castle tiles
+* ["Spooky Castle Tileset" by Buch](https://opengameart.org/content/spooky-castle-tileset) : Used for outdoor castle tilesl and metal gate. Modified to make the gate opening taller
 
-https://opengameart.org/content/coins-pixel-art-silver-gold-crystal-and-more
-    coins
+* ["RPG Indoor Tileset: Expansion 1" by Redshrike](https://opengameart.org/content/rpg-indoor-tileset-expansion-1): Used for indoor tiles
 
-https://opengameart.org/content/three-shiny-jewels-square-soft-diamond-hard-edge-diamond-shapes-package
-    star
+* ["RPG Indoor Tileset: The Baseline" by Redshrike](https://opengameart.org/content/16x16-indoor-rpg-tileset-the-baseline): Used for indoor tiles (specifically the ground)
 
-https://opengameart.org/content/lpc-imp
-    heavy enemies
+* ["Coins pixel art - Silver, Gold, Crystal and more" by Loel](https://opengameart.org/content/coins-pixel-art-silver-gold-crystal-and-more): Used for coin explosion
 
-https://opengameart.org/content/pixel-knight-32x32
-    character
+* ["Three Shiny Jewels (square, soft diamond, hard edge diamond shapes) package" by software_atelier](https://opengameart.org/content/three-shiny-jewels-square-soft-diamond-hard-edge-diamond-shapes-package): Used for final jewel collectable
 
-    lever
+* ["\[LPC\] Imp" by William.Thompsonj](https://opengameart.org/content/lpc-imp): Used for goomba enemy
