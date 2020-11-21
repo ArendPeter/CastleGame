@@ -6,7 +6,7 @@ Hi, this repo is used for my castle game beginners series on the ArendPeterTeach
 
 * ["Pixel Knight 32x32" by PolygonDan](https://opengameart.org/content/pixel-knight-32x32): Used for main knight character
 
-* ["Spooky Castle Tileset" by Buch](https://opengameart.org/content/spooky-castle-tileset) : Used for outdoor castle tilesl and metal gate. Modified to make the gate opening taller
+* ["Spooky Castle Tileset" by Buch](https://opengameart.org/content/spooky-castle-tileset) : Used for outdoor castle tilesl and metal gate. Modified to make the gate opening taller, also the lever was made by me (that bad pixel art is not his fault :P)
 
 * ["RPG Indoor Tileset: Expansion 1" by Redshrike](https://opengameart.org/content/rpg-indoor-tileset-expansion-1): Used for indoor tiles
 
