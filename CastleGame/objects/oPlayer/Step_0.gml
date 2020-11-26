@@ -1,3 +1,5 @@
+event_inherited()
+
 { //////////// HORIZONTAL MOVEMENT ///////////
 	// input
 	dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
@@ -34,6 +36,10 @@
 	if(not place_free(x, y+dy)){
 		move_contact_solid((dy < 0)? 90 : 270, abs(dy))
 		
+		if(dy > 1 and y < 100){
+			zz = 3	
+		}
+		
 		dy = 0
 	}
 	
@@ -41,10 +47,10 @@
 	y += dy
 }
 
-{ //////////// DEBUGGING /////////////
+/*{ //////////// DEBUGGING /////////////
 	if(mouse_check_button_pressed(mb_left)){
 		repeat(20){
 			instance_create_layer(mouse_x, mouse_y, layer, oCoin)	
 		}
 	}
-}
+}*/

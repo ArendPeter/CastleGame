@@ -23,6 +23,7 @@
     {"id":{"name":"sLeverParts","path":"sprites/sLeverParts/sLeverParts.yy",},"order":12,},
     {"id":{"name":"sGate","path":"sprites/sGate/sGate.yy",},"order":4,},
     {"id":{"name":"sJewel","path":"sprites/sJewel/sJewel.yy",},"order":10,},
+    {"id":{"name":"oTrail","path":"objects/oTrail/oTrail.yy",},"order":4,},
     {"id":{"name":"sImp","path":"sprites/sImp/sImp.yy",},"order":7,},
     {"id":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},"order":0,},
   ],
@@ -44,9 +45,9 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmCoinExplosion","path":"rooms/rmCoinExplosion/rmCoinExplosion.yy",},
     {"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},
-    {"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},
     {"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},
     {"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},
