@@ -1,3 +1,4 @@
 event_inherited();
 
-shift_y = -27;
+dy = 0
+

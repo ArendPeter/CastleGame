@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sGate",
-    "path": "sprites/sGate/sGate.yy",
+    "name": "sImp",
+    "path": "sprites/sImp/sImp.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,8 +24,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oGate","path":"objects/oGate/oGate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGate","path":"objects/oGate/oGate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGoomba","path":"objects/oGoomba/oGoomba.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oGoomba","path":"objects/oGoomba/oGoomba.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGate",
+  "name": "oGoomba",
   "tags": [],
   "resourceType": "GMObject",
 }

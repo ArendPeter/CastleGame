@@ -1,3 +1,5 @@
+event_inherited();
+
 /*if(activated){
 	y = ystart + shift_y
 }else{

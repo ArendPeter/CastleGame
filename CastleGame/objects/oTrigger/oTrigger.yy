@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sTrigger",
-    "path": "sprites/sTrigger/sTrigger.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -23,7 +20,9 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oTrigger","path":"objects/oTrigger/oTrigger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
-  "properties": [],
+  "properties": [
+    {"varType":4,"value":"[]","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"activatables","tags":[],"resourceType":"GMObjectProperty",},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",

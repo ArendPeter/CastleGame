@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sGate",
-    "path": "sprites/sGate/sGate.yy",
+    "name": "sTrigger",
+    "path": "sprites/sTrigger/sTrigger.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oActivatable",
-    "path": "objects/oActivatable/oActivatable.yy",
+    "name": "oTrigger",
+    "path": "objects/oTrigger/oTrigger.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oGate","path":"objects/oGate/oGate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oGate","path":"objects/oGate/oGate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oTriggerZone","path":"objects/oTriggerZone/oTriggerZone.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oGate",
+  "name": "oTriggerZone",
   "tags": [],
   "resourceType": "GMObject",
 }
