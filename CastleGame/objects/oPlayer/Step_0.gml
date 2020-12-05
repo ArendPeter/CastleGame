@@ -1,9 +1,22 @@
 { //////////// HORIZONTAL MOVEMENT ///////////
-	// input
-	dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
+	switch(state){
+	case PLAYER_STATE.hurt:
+		dx *= knockback_fr
+		if(abs(dx) < 1){
+			state = PLAYER_STATE.in_control
+		}
+		break;
+	case PLAYER_STATE.in_control:
+		// input
+		dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
+		
+		// facing
+		if(dx != 0) image_xscale = sign(dx) // 1, 0, -1
+		break;
 	
-	// facing
-	if(dx != 0) image_xscale = sign(dx) // 1, 0, -1
+	default:
+		throw ("invalid state");
+	}
 	
 	// collision
 	if(not place_free(x+dx, y)) dx = 0
@@ -39,4 +52,11 @@
 	
 	// apply dy
 	y += dy
+}
+
+{ //////////// GOOMBA INTERACT ///////////
+	if(state == PLAYER_STATE.in_control and place_meeting(x, y, oGoomba)){
+		state = PLAYER_STATE.hurt
+		dx = -dx;
+	}
 }
