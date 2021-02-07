@@ -27,6 +27,7 @@
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
     {"id":{"name":"rmCoinExplosion","path":"rooms/rmCoinExplosion/rmCoinExplosion.yy",},"order":5,},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},"order":11,},
+    {"id":{"name":"oCameraControl","path":"objects/oCameraControl/oCameraControl.yy",},"order":12,},
     {"id":{"name":"oLever","path":"objects/oLever/oLever.yy",},"order":10,},
     {"id":{"name":"animDespawn","path":"animcurves/animDespawn/animDespawn.yy",},"order":4,},
     {"id":{"name":"animDamage","path":"animcurves/animDamage/animDamage.yy",},"order":5,},
