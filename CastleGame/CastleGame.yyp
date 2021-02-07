@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"oJewel","path":"objects/oJewel/oJewel.yy",},"order":1,},
     {"id":{"name":"tileOutside","path":"tilesets/tileOutside/tileOutside.yy",},"order":0,},
+    {"id":{"name":"oControl","path":"objects/oControl/oControl.yy",},"order":0,},
     {"id":{"name":"rmJewels","path":"rooms/rmJewels/rmJewels.yy",},"order":3,},
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
