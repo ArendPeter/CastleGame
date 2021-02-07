@@ -1,3 +1,4 @@
+
 var goomba_col_box_top = sprite_get_bbox_top(sprite_index) * image_yscale
 var player_col_box_bottom = sprite_get_bbox_bottom(oPlayer.sprite_index) * oPlayer.image_yscale
 
@@ -13,6 +14,4 @@ if(vertical_collision){
 		instance_create_layer(x, y-17, layer, oCoin)
 	}
 	instance_destroy()
-}else{
-	game_restart()
 }

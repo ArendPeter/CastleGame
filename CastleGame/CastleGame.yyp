@@ -13,6 +13,7 @@
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":8,},
     {"id":{"name":"oActivatable","path":"objects/oActivatable/oActivatable.yy",},"order":6,},
+    {"id":{"name":"oTriggerRoom","path":"objects/oTriggerRoom/oTriggerRoom.yy",},"order":11,},
     {"id":{"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},"order":4,},
     {"id":{"name":"shorterCamera","path":"scripts/shorterCamera/shorterCamera.yy",},"order":1,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":9,},
@@ -52,11 +53,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
     {"roomId":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},},
     {"roomId":{"name":"rmPlatformer","path":"rooms/rmPlatformer/rmPlatformer.yy",},},
     {"roomId":{"name":"rmCoinExplosion","path":"rooms/rmCoinExplosion/rmCoinExplosion.yy",},},
     {"roomId":{"name":"rmGoomba","path":"rooms/rmGoomba/rmGoomba.yy",},},
-    {"roomId":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
     {"roomId":{"name":"rmWin","path":"rooms/rmWin/rmWin.yy",},},
   ],
   "Folders": [

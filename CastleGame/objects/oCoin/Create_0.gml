@@ -5,6 +5,6 @@ dy = lengthdir_y(start_sp, start_dir)
 
 grav = .5
 bounce_factor = .5
-fr = .9
+fr = .6
 
 despawn_timer = 3 * room_speed

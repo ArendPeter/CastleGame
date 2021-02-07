@@ -1,11 +1,24 @@
 event_inherited()
 
 { //////////// HORIZONTAL MOVEMENT ///////////
-	// input
-	dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
-	
-	// facing
-	if(dx != 0) image_xscale = sign(dx) // 1, 0, -1
+
+    switch(state){
+    case PLAYER_STATE.hurt:
+        dx *= knockback_fr
+        if(abs(dx) < 1){
+                state = PLAYER_STATE.in_control
+        }
+        break;
+    case PLAYER_STATE.in_control:
+        // input
+        dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
+
+        // facing
+        if(dx != 0) image_xscale = sign(dx) // 1, 0, -1
+        break;
+    default:
+        throw ("invalid state");
+    }
 	
 	// collision
 	if(not place_free(x+dx, y)) dx = 0
@@ -51,13 +64,20 @@ event_inherited()
 	}
 }*/
 
+{ //////////// GOOMBA INTERACT ///////////
+    if(state == PLAYER_STATE.in_control and place_meeting(x, y, oGoomba)){
+        state = PLAYER_STATE.hurt
+        dx = -dx;
+	}
+}
+
 // //////////// CAMERA /////////////
 {
 	var cam_x = oPlayer.x - camW()/2
 	var cam_y = oPlayer.y - 150
 
 	cam_x = clamp(cam_x, 0, room_width-camW())
-	cam_y = clamp(cam_y, 0, room_width-camH())
+	cam_y = clamp(cam_y, 0, room_height-camH())
 
 	camPos(cam_x, cam_y)
 }
