@@ -36,10 +36,6 @@ event_inherited()
 	if(not place_free(x, y+dy)){
 		move_contact_solid((dy < 0)? 90 : 270, abs(dy))
 		
-		if(dy > 1 and y < 100){
-			zz = 3	
-		}
-		
 		dy = 0
 	}
 	
@@ -54,3 +50,21 @@ event_inherited()
 		}
 	}
 }*/
+
+// //////////// CAMERA /////////////
+{
+	var cam_x = oPlayer.x - camW()/2
+	var cam_y = oPlayer.y - 150
+
+	cam_x = clamp(cam_x, 0, room_width-camW())
+	cam_y = clamp(cam_y, 0, room_width-camH())
+
+	camPos(cam_x, cam_y)
+}
+
+// //////////// SPAWN JEWEL /////////////
+{
+	if(!instance_exists(oGoomba) and alarm[0] == -1){
+		alarm[0] = room_speed
+	}
+}

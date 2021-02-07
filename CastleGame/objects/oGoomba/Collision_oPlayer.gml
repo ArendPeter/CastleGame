@@ -9,7 +9,9 @@ if(vertical_collision){
 	with(oPlayer){
 		bounce()	
 	}
-	instance_create_layer(x, y-17, layer, oCoin)
+	repeat(20){
+		instance_create_layer(x, y-17, layer, oCoin)
+	}
 	instance_destroy()
 }else{
 	game_restart()
