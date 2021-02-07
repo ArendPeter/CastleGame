@@ -77,7 +77,7 @@ if(instance_exists(oCameraControl) and oCameraControl.in_transition) exit
 
 // //////////// SPAWN JEWEL /////////////
 {
-	if(!instance_exists(oGoomba) and alarm[0] == -1){
+	if(!instance_exists(oGoomba) and !instance_exists(oJewel) and alarm[0] == -1){
 		alarm[0] = room_speed
 	}
 }
