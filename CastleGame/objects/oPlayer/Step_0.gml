@@ -70,7 +70,9 @@ if(instance_exists(oCameraControl) and oCameraControl.in_transition) exit
     if(state == PLAYER_STATE.in_control and place_meeting(x, y, oGoomba)){
         state = PLAYER_STATE.hurt
         dx = -dx;
+		damage_x = 0
 	}
+	damage_x = stepTowards(damage_x, 1, 1/(damage_seconds*room_speed))
 }
 
 // //////////// SPAWN JEWEL /////////////
