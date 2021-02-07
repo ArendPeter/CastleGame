@@ -45,4 +45,12 @@
 	if(despawn_timer < 0){
 		instance_destroy()	
 	}
+	
+    if(despawn_timer < despawn_anim_steps){
+        var t = 1 - (despawn_timer / despawn_anim_steps)
+        var ch = animcurve_get_channel(animDespawn, 0)
+        var visible_frames = animcurve_channel_evaluate(ch, t)
+        var i = despawn_timer % (visible_frames + invisible_frames)
+        visible = i < visible_frames
+	}
 }
