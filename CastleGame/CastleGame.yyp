@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"tileOutside","path":"tilesets/tileOutside/tileOutside.yy",},"order":0,},
     {"id":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},"order":3,},
+    {"id":{"name":"stepTowards","path":"scripts/stepTowards/stepTowards.yy",},"order":0,},
     {"id":{"name":"sSolid","path":"sprites/sSolid/sSolid.yy",},"order":1,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oActivatable","path":"objects/oActivatable/oActivatable.yy",},"order":5,},
