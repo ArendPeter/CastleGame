@@ -8,6 +8,7 @@
     {"id":{"name":"oActivatable","path":"objects/oActivatable/oActivatable.yy",},"order":5,},
     {"id":{"name":"oLever","path":"objects/oLever/oLever.yy",},"order":3,},
     {"id":{"name":"oTriggerZone","path":"objects/oTriggerZone/oTriggerZone.yy",},"order":6,},
+    {"id":{"name":"animGate","path":"animcurves/animGate/animGate.yy",},"order":0,},
     {"id":{"name":"tileInside","path":"tilesets/tileInside/tileInside.yy",},"order":1,},
     {"id":{"name":"oGoomba","path":"objects/oGoomba/oGoomba.yy",},"order":7,},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":8,},
@@ -42,8 +43,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},},
     {"roomId":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
+    {"roomId":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
