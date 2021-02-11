@@ -58,5 +58,11 @@
 	if(state == PLAYER_STATE.in_control and place_meeting(x, y, oGoomba)){
 		state = PLAYER_STATE.hurt
 		dx = -dx;
+		cx = 0
 	}
 }
+
+{ //////////// ANIMATION LOGIC ///////////
+	cx = stepTowards(cx, 1, 1 / (damage_seconds*room_speed))
+}
+

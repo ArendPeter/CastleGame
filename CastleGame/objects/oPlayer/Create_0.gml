@@ -13,3 +13,7 @@ enum PLAYER_STATE {
 }
 
 state = PLAYER_STATE.in_control
+
+cx = 1
+cy = 0
+damage_seconds = 1

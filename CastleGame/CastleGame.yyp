@@ -9,6 +9,7 @@
     {"id":{"name":"tileInside2","path":"tilesets/tileInside2/tileInside2.yy",},"order":2,},
     {"id":{"name":"sInside2","path":"sprites/sInside2/sInside2.yy",},"order":6,},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},"order":1,},
+    {"id":{"name":"animColor","path":"animcurves/animColor/animColor.yy",},"order":0,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":2,},
     {"id":{"name":"sInside","path":"sprites/sInside/sInside.yy",},"order":5,},
     {"id":{"name":"sImp","path":"sprites/sImp/sImp.yy",},"order":7,},
