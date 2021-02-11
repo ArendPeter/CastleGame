@@ -1,3 +1,5 @@
+if(oCameraControl.in_transition) exit
+
 { //////////// HORIZONTAL MOVEMENT ///////////
 	// input
 	dx = (keyboard_check(vk_right) - keyboard_check(vk_left))*mv_speed
