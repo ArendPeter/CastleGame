@@ -16,11 +16,13 @@
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},"order":11,},
     {"id":{"name":"sInside2","path":"sprites/sInside2/sInside2.yy",},"order":6,},
+    {"id":{"name":"stepTowards","path":"scripts/stepTowards/stepTowards.yy",},"order":0,},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},"order":1,},
     {"id":{"name":"oTrigger","path":"objects/oTrigger/oTrigger.yy",},"order":4,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":2,},
     {"id":{"name":"sInside","path":"sprites/sInside/sInside.yy",},"order":5,},
     {"id":{"name":"sGate","path":"sprites/sGate/sGate.yy",},"order":4,},
+    {"id":{"name":"animLever","path":"animcurves/animLever/animLever.yy",},"order":0,},
     {"id":{"name":"sImp","path":"sprites/sImp/sImp.yy",},"order":7,},
     {"id":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},"order":0,},
   ],
@@ -42,8 +44,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},},
     {"roomId":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
+    {"roomId":{"name":"rmInside","path":"rooms/rmInside/rmInside.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
