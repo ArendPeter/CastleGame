@@ -17,6 +17,8 @@
     {"id":{"name":"sOutside","path":"sprites/sOutside/sOutside.yy",},"order":3,},
     {"id":{"name":"sLever","path":"sprites/sLever/sLever.yy",},"order":11,},
     {"id":{"name":"sInside2","path":"sprites/sInside2/sInside2.yy",},"order":6,},
+    {"id":{"name":"animShake","path":"animcurves/animShake/animShake.yy",},"order":0,},
+    {"id":{"name":"oCameraControl","path":"objects/oCameraControl/oCameraControl.yy",},"order":8,},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},"order":1,},
     {"id":{"name":"oTrigger","path":"objects/oTrigger/oTrigger.yy",},"order":4,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":2,},
