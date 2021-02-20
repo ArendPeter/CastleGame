@@ -3,3 +3,7 @@ var ch = animcurve_get_channel(animSpawn, 0)
 var cy = animcurve_channel_evaluate(ch, cx)
 image_xscale = cy 
 image_yscale = cy 
+
+if(keyboard_check_pressed(ord("R"))){
+	game_restart()
+}
