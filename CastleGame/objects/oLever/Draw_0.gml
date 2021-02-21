@@ -1,7 +1,7 @@
 // back
 draw_sprite_ext(sprite_index, 1, x, y, image_xscale, image_yscale, 0, image_blend, image_alpha)
 // lever
-for(var i = 0; i < ds_list_size(angles); i++){
+for(var i = 0; i < min(3,ds_list_size(angles)); i++){
 	
 	draw_sprite_ext(sprite_index, 2, x, y, image_xscale, image_yscale, angles[| i], image_blend, power(.8, i+1))
 }

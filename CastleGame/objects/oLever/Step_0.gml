@@ -16,9 +16,11 @@ var cy = animcurve_channel_evaluate(ch, cx)
 
 var target = (enabled)? -start_angle : start_angle
 var prev = -target
-image_angle = lerp(prev, target, cy)
+image_angle = lerp(prev, target, cx)
 
 step++
 if(step%gap == 0){
-	ds_list_insert(angles, 0, image_angle)	
+	if(angles[| 0] != image_angle){
+		ds_list_insert(angles, 0, image_angle)	
+	}
 }

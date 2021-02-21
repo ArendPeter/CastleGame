@@ -11,4 +11,4 @@ trans_seconds = .5
 
 angles = ds_list_create()
 step = 0
-gap = 3
+gap = 12
